@@ -1,8 +1,8 @@
 {
-  "name": "expect",
+  "name": "expect-legacy",
   "version": "1.20.2",
   "description": "Write better assertions",
-  "repository": "mjackson/expect",
+  "repository": "trabe/expect",
   "author": "Michael Jackson",
   "license": "MIT",
   "main": "lib",
@@ -24,7 +24,7 @@
     "posttest": "npm run karma",
     "karma": "karma start",
     "release": "node ./scripts/release.js",
-    "prepublish": "safe-publish-latest && npm run build"
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "define-properties": "~1.1.2",
